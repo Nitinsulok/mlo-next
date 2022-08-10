@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Header from "../pages/component/Header";
+import login from "../pages/login";
 
 export default function Home() {
   return (
