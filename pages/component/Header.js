@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
     return (
@@ -14,7 +13,7 @@ export default function Header() {
                         <span className="input-group-append">
                             <button className="search-btn btn" type="button">
                                 <i class="fas fa-search"></i>
-                                
+
                             </button>
                         </span>
                         <input className="py-2  search_input" type="search" placeholder="Search" id="example-search-input" />
@@ -36,6 +35,10 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
+            <div className='main ms-5 my-2'>
+                <h6 className='mb-2 fs-6'>Home  /</h6>
+                <h4 className='fs-4'>Top deals</h4>
+            </div>
         </div>
     )
 }

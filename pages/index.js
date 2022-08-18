@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { config } from "@fortawesome/fontawesome-svg-core";
 import Header from "../pages/component/Header";
 import login from "../pages/login";
+import Categories from "../pages/component/Categories";
+import Slider from "../pages/component/Slider";
+import Slider_brands from './component/Slider_2';
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       </Head>
       <Header />
+      <Slider />
+      <Slider_brands />
+      <Categories />
 
 
     </div>
