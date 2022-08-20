@@ -5,6 +5,7 @@ import login from "../pages/login";
 import Categories from "../pages/component/Categories";
 import Slider from "../pages/component/Slider";
 import Slider_brands from './component/Slider_2';
+import Card from "./component/Card";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <Header />
       <Slider />
       <Slider_brands />
+      <Card />
       <Categories />
 
 
