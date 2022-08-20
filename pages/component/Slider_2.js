@@ -18,14 +18,14 @@ export default function Slider_brands() {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide><img className='img-fluid' src='/img/slider/restaurant.png'></img></SwiperSlide>
-                <SwiperSlide><img className='img-fluid' src='/img/slider/spa.png'></img></SwiperSlide>
-                <SwiperSlide><img className='img-fluid' src='/img/slider/fast-food.png'></img></SwiperSlide>
-                <SwiperSlide><img className='img-fluid' src='/img/slider/restaurant.png'></img></SwiperSlide>
-                <SwiperSlide><img className='img-fluid' src='/img/slider/gift.png'></img></SwiperSlide>
-                <SwiperSlide><img className='img-fluid' src='/img/slider/hair-spa.png'></img></SwiperSlide>
-                <SwiperSlide><img className='img-fluid' src='/img/slider/dinner.png'></img></SwiperSlide>
-                ...
+                <SwiperSlide><img className='img-fluid' src='/img/brands/brand_1.png'></img></SwiperSlide>
+                <SwiperSlide><img className='img-fluid' src='/img/brands/brand_2.png'></img></SwiperSlide>
+                <SwiperSlide><img className='img-fluid' src='/img/brands/brand_3.png'></img></SwiperSlide>
+                <SwiperSlide><img className='img-fluid' src='/img/brands/brand_4.png'></img></SwiperSlide>
+                <SwiperSlide><img className='img-fluid' src='/img/brands/brand_5.png'></img></SwiperSlide>
+                <SwiperSlide><img className='img-fluid' src="/img/brands/brand_6.png"></img></SwiperSlide>
+                <SwiperSlide><img className='img-fluid' src='/img/brands/brand_2.png'></img></SwiperSlide>
+                ..
             </Swiper>
         </div>
     )
