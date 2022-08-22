@@ -6,6 +6,8 @@ import Categories from "../pages/component/Categories";
 import Slider from "../pages/component/Slider";
 import Slider_brands from './component/Slider_2';
 import Card from "./component/Card";
+import Slider_Other from './component/Slider_3';
+import Footer from './component/footer';
 
 export default function Home() {
   return (
@@ -36,6 +38,8 @@ export default function Home() {
       <Slider_brands />
       <Card />
       <Categories />
+      <Slider_Other />
+      <Footer />
 
 
     </div>
