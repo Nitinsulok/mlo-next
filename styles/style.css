@@ -54,6 +54,15 @@
     color: #fff;
 }
 
+.vertical{
+    border-left: 1px solid #fff;
+    height: 200px;
+}
+
+br{
+    display: block !important;
+}
+
 
 /* Categories */
 
