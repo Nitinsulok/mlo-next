@@ -35,7 +35,7 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
-            <div className='main ms-5 my-2'>
+            <div className='main ms-5 my-3'>
                 <h6 className='mb-2 fs-6'>Home  /</h6>
                 <h4 className='fs-4'>Top deals</h4>
             </div>
